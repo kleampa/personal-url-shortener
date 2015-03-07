@@ -1,0 +1,198 @@
+/* @group ntz css reset */
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {margin:0;padding:0;border:0;outline:0;font-size:100%;background:transparent}
+body {line-height: 1}
+ol, ul {list-style:none}
+blockquote, q {quotes:none}
+blockquote:before, blockquote:after,
+q:before, q:after {content:'';content:none}
+
+strong, b {font-weight:700}
+em, i {font-style:italic}
+
+ins {text-decoration:none}
+del {text-decoration:line-through}
+table {border-collapse:collapse;border-spacing:0}
+caption, th, td {text-align:left;font-weight:100}
+
+textarea {overflow:auto}
+button {cursor:pointer;padding:0}
+button::-moz-focus-inner { border: 0; }
+
+input.radio, input.checkbox {vertical-align:text-top;width:13px;height:13px;padding:0;margin:0;position:relative;overflow:hidden;top:2px}
+
+a {text-decoration:none; color:#4f81bd}
+a:hover {text-decoration:underline}
+
+:focus {outline:0}
+a:focus {outline:1px dotted #999}
+
+/*  -----------------------------------
+	smart and dirty
+--------------------------------------*/
+
+.clearfix:after {content:".";display:block;height:0;clear:both;visibility:hidden}
+.clearfix {display:inline-block; clear:both;}
+/* Hide from IE Mac \*/
+.clearfix {display:block}
+/* End hide from IE Mac */
+* html .clearfix {height:1px}
+
+/* @end */
+
+body {
+	background-image:url("../images/bg.png");
+	font-family:Helvetica,Arial,sans-serif;
+}	
+
+#all {
+	margin:60px 0px 0px 70px;
+}
+
+h1 {
+	color:#777777;
+	font-size:30px;
+	font-weight:bold;
+}
+
+#error {
+	padding:12px;
+	color:red;
+	background:white;
+	font-size:12px;
+	margin:15px 0px 0px 0px;
+	width:300px;
+}
+
+#done {
+	padding:12px;
+	color:green;
+	background:white;
+	font-size:12px;
+	margin:15px 0px 0px 0px;
+	width:300px;
+}
+
+#url_area {
+	background:#EFF2F9;
+	border:1px solid white;
+	height:65px;
+	margin-top:20px;
+	margin-bottom:20px;
+}
+
+.inputus {
+	margin:12px 12px 0px 12px;
+	background:white;
+	border:none;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	height:40px;
+	font-size:17px;
+	font-weight:normal;
+	font-family:Arial;
+	color:#333333;
+	padding:0px 5px 0px 15px;
+}
+
+.doit_smaller {
+	height:61px;
+	border:0px;
+	background-image:url("../images/bg_green.jpg");
+	background-repeat:repeat-x;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	font-size:17px;
+	font-weight:normal;
+	font-family:Arial;
+	color:white;
+	text-shadow:1px 1px 1px black;
+	position:relative;
+	z-index:2; /* 1 */
+}	
+
+.doit_custom {
+	height:61px;
+	border:0px;
+	background-image:url("../images/bg_orange.jpg");
+	background-repeat:repeat-x;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	font-size:17px;
+	font-weight:normal;
+	font-family:Arial;
+	color:white;
+	text-shadow:1px 1px 1px black;
+	margin-left:-10px; /* -7px */
+	position:relative;
+	z-index:1; /* 2 */
+}	
+
+.custom_url {
+	color:#A0A0A0;
+	font-size:12px;
+}
+
+.img_check {
+	vertical-align:middle;
+	margin-right:15px;
+	cursor:pointer;
+}
+
+#history table {
+	width:557px;
+	background:white;
+	margin-top:10px;
+	margin-bottom:15px;
+	border-top:10px solid #EFF2F9;
+	border-bottom:10px solid #EFF2F9;
+	font-family:Arial;
+	font-size:15px;
+	color:#333;
+}
+
+#history td {
+	padding:15px;
+	border-bottom:1px solid #EFF2F9;
+}
+
+.go {
+	vertical-align:middle;
+	margin-top:-5px;
+	margin-right:3px;
+}
+
+.delete_icon { 
+	display:none;
+	cursor:pointer;
+}
+
+.info {
+	font-size:10px;
+	color:#999999;
+}
+
+.text_shadow {
+	font-size:10px;
+	color:#777777;
+	text-shadow:1px 1px 1px white;
+}
+
+#footer {
+	font-size:11px;
+	color:#777777;
+	text-shadow:1px 1px 1px white;
+	line-height:14px;
+}
+
+#footer img {
+	vertical-align:middle;
+	margin-top:-2px;
+}
