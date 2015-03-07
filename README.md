@@ -7,9 +7,9 @@ mySQL
 
 # Installation
 
-Rename library/config.sample.php to library/config.php
-Edit library/config.php with your database credentials
-Run index.php
+- Rename library/config.sample.php to library/config.php
+- Edit library/config.php with your database credentials
+- Run index.php
 
 # Demo
 http://prntscr.com/6e103r
